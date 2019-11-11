@@ -11,7 +11,7 @@ export default class App extends Component {
       }
     };
     this.setState({loading: true});
-    axios.post(`https://mowesoft.com/api/cache.json`, axiosConfig)
+    axios.post(`https://domain.com/cache.json`, axiosConfig)
     .then(response => {
         console.log(response.data);
         this.setState({jsonData: response.data});
