@@ -2,7 +2,7 @@
 Turkey Super League Standings Android and IOS app. Written with React Native
 
 ## Server Side
-This project is using [XnCN's repo](https://www.google.com) to get Super League data.
+This project is using [XnCN's repo](https://github.com/XnCN/superligpuandurumu) to get Super League data.
 Upload all files to hosting and create cron job to run CreateJson.php. After do this, you will see new file in hosting called cache.json.
 I created Json file because if application request directly get data, your server will be highly load.
 
